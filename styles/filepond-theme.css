@@ -1,0 +1,43 @@
+[data-theme="dark"] .filepond--root {
+    background-color: transparent;
+}
+
+[data-theme="dark"] .filepond--panel-root {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .filepond--drip {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .filepond--drop-label {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+[data-theme="dark"] .filepond--label-action {
+    text-decoration: none;
+}
+
+[data-theme="dark"] .filepond--file {
+    background-color: rgba(51, 65, 85, 255);
+}
+
+[data-theme="dark"] .filepond--file-action-button {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .filepond--file-action-button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+[data-theme="dark"] .filepond--drip-blob {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.filepond--panel-root {
+    background-color: transparent !important;
+}
+
+.filepond--label-action {
+    text-decoration: none;
+}

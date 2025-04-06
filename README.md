@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FileSharing
 
-## Getting Started
+[DEMO](https://share.ll-u.pro)
 
-First, run the development server:
+FileSharing is an application for anonymous file uploading built with [Next.js](https://nextjs.org). It allows users to upload files and share download links.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Anonymous file uploading
+-   Unique download link generation
+-   Support for various file types
+-   Modern interface using Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
 
-## Learn More
+    ```bash
+    git clone https://github.com/your-repo/anon-file-upload.git
+    cd anon-file-upload/frontend
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    bun install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Configure environment variables:
 
-## Deploy on Vercel
+    Create a `.env` file in the `frontend` folder and add:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```env
+    API_URL=http://localhost:3000
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the development server:
+
+    ```bash
+    bun run dev
+    ```
+
+5. Open [http://localhost:3001](http://localhost:3001) in your browser.
+
+## 🖼️ Screenshots
+
+![Main page](.github/images/image.png)
+![Uploaded file](.github/images/image2.png)
+![Download page](.github/images/image3.png)
+
+## 📜 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for more details.
